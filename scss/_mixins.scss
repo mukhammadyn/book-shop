@@ -1,0 +1,65 @@
+@mixin general {
+  /* GENERAL */
+  html {
+    box-sizing: border-box;
+    height: 100%;
+  }
+
+  *,
+  *::before,
+  *::after {
+    box-sizing: inherit;
+  }
+
+  body {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    font-family: "Arial", sans-serif;
+    background-color: #fff;
+    color: #222;
+  }
+
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+}
+
+@mixin cssretina {
+  @media
+    only screen and (-webkit-min-device-pixel-ratio: 2),
+    only screen and (   min--moz-device-pixel-ratio: 2),
+    only screen and (     -o-min-device-pixel-ratio: 2/1),
+    only screen and (        min-device-pixel-ratio: 2),
+    only screen and (                min-resolution: 192dpi),
+    only screen and (                min-resolution: 2dppx) {
+    @content;
+  }
+}
+
+@mixin breakpoint-down ($size) {
+  @media only screen and (max-width: $size) {
+    @content;
+  }
+}
+
+@mixin breakpoint-up ($size) {
+  @media only screen and (min-width: $size) {
+    @content;
+  }
+}
+
+@mixin breakpoint-between ($min, $max) {
+  @media only screen and (min-width: $min) and (max-width: $max) {
+    @content;
+  }
+}
+
+@mixin list-unstyled {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
