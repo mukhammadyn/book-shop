@@ -1,0 +1,44 @@
+.header-nav__list {
+  @include list-unstyled;
+  display: flex;
+  align-items: center;
+}
+
+.header-nav__link {
+  display: block;
+  padding: 30px 20px;
+  text-decoration: none;
+  text-align: center;
+  color: #969696;
+  transition: background-color 0.3s ease;
+
+  &:hover {
+    background-color: $color-hovered;
+  }
+}
+
+.header-nav__link--active {
+  color: #fff;
+  background-color: $color-hovered;
+}
+
+@include breakpoint-down(550px) {
+
+  .header-nav__link {
+    padding: 20px 15px;
+  }
+
+}
+
+@include breakpoint-down(440px) {
+
+  .header-nav__list {
+    position: absolute;
+    z-index: 1;
+    right: 0;
+    top: 100%;
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+}
