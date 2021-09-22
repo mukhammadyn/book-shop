@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,10 +8,12 @@
   <title>Book shop</title>
   <link rel="stylesheet" href="css/main.css">
 </head>
+
 <body>
 
   <header class="site-header">
     <section class="site-header__top header-info">
+      <h2 class="visually-hidden">Aur contacts</h2>
       <div class="header-info__container container">
         <div class="header-info__info">
           <a class="header-info__call" href="tel:998909518012">+998 (90) 951-80-12</a>
@@ -27,6 +30,7 @@
     </section>
 
     <section class="site-header__bottom header-navigation">
+      <h2 class="visually-hidden">Menu</h2>
       <div class="header-navigation__container container">
         <a class="header-navigation__logo-link" href="index.html">
           <img class="header-navigation__logo" src="img/icon/site-logo.svg" alt="site logo" width="104" height="49">
@@ -34,22 +38,42 @@
         <div class="header-navigation__links">
           <nav class="header-navigation__nav header-nav">
             <ul class="header-nav__list">
-              <li class="header-nav__item"><a class="header-nav__link header-nav__link--active" href="#">Liked</a></li>
-              <li class="header-nav__item"><a class="header-nav__link" href="#">Account</a></li>
+              <li class="header-nav__item"><a class="header-nav__link header-nav__link--active"
+                  href="index.html">Home</a></li>
+              <li class="header-nav__item"><a class="header-nav__link" href="books.html">Books</a></li>
               <li class="header-nav__item"><a class="header-nav__link" href="#">Settings</a></li>
             </ul>
           </nav>
-          <button class="header-navigation__links-search" type="button">
-          </button>
           <button class="header-navigation__links-toggle js-nav-toggler" type="button">
-            <img src="img/icon/book-btn.svg" alt=" " width="44" height="44">
+            <img src="img/icon/book-btn.svg" alt=" " width="30" height="30">
           </button>
         </div>
       </div>
     </section>
   </header>
 
+  <main class="site-main">
+    <section class="site-hero">
+      <h2 class="visually-hidden">Lorem, ipsum.</h2>
+      <div class="site-hero__container container">
+        <img src="img/icon/hero-logo.svg" alt=" " class="site-hero__logo" width="320" height="320">
+        <p class="site-hero__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Purus interdum purus, est
+          tortor pulvinar ut in. Fringilla a diam enim sed justo, sed iaculis sagittis. Tortor id eu interdum nec ut
+          iaculis. Penatibus ullamcorper ultricies morbi ipsum sem metus pharetra, mi. Tortor nibh magna feugiat id
+          nunc, dui nisl viverra.</p>
+      </div>
+    </section>
 
-<script src="js/main.js"></script>
+    <section class="site-books">
+      <div class="container">
+
+      </div>
+    </section>
+  </main>
+
+  
+  <script src="js/books.js"></script>
+  <script src="js/main.js"></script>
 </body>
+
 </html>

@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Book shop</title>
+  <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+
+  <header class="site-header">
+    <section class="site-header__top header-info">
+      <h2 class="visually-hidden">Aur contacts</h2>
+      <div class="header-info__container container">
+        <div class="header-info__info">
+          <a class="header-info__call" href="tel:998909518012">+998 (90) 951-80-12</a>
+          <span class="header-info__days-we-work">We work 24/7</span>
+          <span class="header-info__work-time">
+            <time datetime="12:00">12:00</time>
+            <time datetime="00:00">00:00</time>
+          </span>
+        </div>
+        <div class="header-info__sign">
+          <a class="header-info__sign-link" href="#">Sign-in/Sign-up</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="site-header__bottom header-navigation">
+      <h2 class="visually-hidden">Menu</h2>
+      <div class="header-navigation__container container">
+        <a class="header-navigation__logo-link" href="index.html">
+          <img class="header-navigation__logo" src="img/icon/site-logo.svg" alt="site logo" width="104" height="49">
+        </a>
+        <div class="header-navigation__links">
+          <nav class="header-navigation__nav header-nav">
+            <ul class="header-nav__list">
+              <li class="header-nav__item"><a class="header-nav__link" href="index.html">Home</a></li>
+              <li class="header-nav__item"><a class="header-nav__link header-nav__link--active" href="books.html">Books</a></li>
+              <li class="header-nav__item"><a class="header-nav__link" href="#">Settings</a></li>
+            </ul>
+          </nav>
+          <button class="header-navigation__links-search js-search-button" type="button">
+          </button>
+          <button class="header-navigation__links-toggle js-nav-toggler" type="button">
+            <img src="img/icon/book-btn.svg" alt=" " width="30" height="30">
+          </button>
+        </div>
+      </div>
+    </section>
+  </header>
+
+  <main class="site-main">
+    <section class="books-hero">
+      
+    </section>
+
+    <section class="site-books">
+      <div class="container">
+
+      </div>
+    </section>
+  </main>
+
+  <!-- MODAL -->
+  <div class="search-modal">
+    <div class="container">
+      <div class="search-modal__content">
+        <form class="search-modal__form" action="https://echo.htmlacademy.ru" method="GET">
+          <div class="search-modal__inputs-wrapper">
+            <div class="search-modal__input-wrapper">
+              <span class="search-modal__txt">Book name</span>
+              <input class="search-modal__by-name search-modal__input js-search-by-name" autofocus type="text" name="book_name"
+                aria-label="search book by name">
+            </div>
+            <div class="search-modal__input-wrapper">
+              <span class="search-modal__txt">Start year</span>
+              <input class="search-modal__by-year search-modal__input js-search-by-start-year" type="number" name="book_start_year"
+                aria-label="search book by year">
+            </div>
+            <div class="search-modal__input-wrapper">
+              <span class="search-modal__txt">End year</span>
+              <input class="search-modal__by-year search-modal__input js-search-by-end-year" type="number" name="book_end_year"
+                aria-label="search book by year">
+            </div>
+          </div>
+          <div class="search-modal__selects-wrapper">
+            <select class="search-modal__by-language search-modal__input js-search-by-end-language" name="language"
+              aria-label="search book by language">
+              <option value="All">Language</option>
+            </select>
+            <select class="search-modal__by-country search-modal__input js-search-by-end-country" name="country"
+              aria-label="search book by country">
+              <option value="All">Country</option>
+            </select>
+            <select class="search-modal__by-country search-modal__input js-search-by-end-country" name="country"
+              aria-label="search book by country">
+              <option value="all">Sort</option>
+              <option value="year_asc">Year (old-new)</option>
+              <option value="year_desc">Year (new-old)</option>
+              <option value="az">A-Z</option>
+              <option value="za">Z-A</option>
+              <option value="page_low-high">Pages low-high</option>
+              <option value="Pages">Pages low-high</option>
+              <option value="az">A-Z</option>
+              <option value="za">Z-A</option>
+              <option value="rating_asc">Rating low-high</option>
+              <option value="rating_desc">Rating high-low</option>
+            </select>
+          </div>
+          <button class="search-modal__submit" type="submit">Search</button>
+        </form>
+      </div>
+    </div>
+  </div>
+
+
+<script src="js/books.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>

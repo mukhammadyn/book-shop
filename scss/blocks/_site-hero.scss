@@ -1,0 +1,43 @@
+.site-hero {
+  padding-top: 90px;
+  padding-bottom: 90px;
+  background-color: rgb(68, 68, 68);
+  background-attachment: fixed;
+  
+}
+
+.site-hero__container {
+  text-align: center;
+}
+
+.site-hero__text {
+  margin: 0 auto;
+  margin-top: 80px;
+  max-width: 730px;
+}
+
+@include breakpoint-down(650px) {
+
+  .site-hero {
+    padding-top: 66px;
+    padding-bottom: 66px;
+  }
+
+  .site-hero__text {
+    margin-top: 50px;
+  }
+
+}
+
+@include breakpoint-down(370px) {
+
+  .site-hero {
+    padding-top: 45px;
+    padding-bottom: 45px;
+  }
+
+  .site-hero__text {
+    margin-top: 30px;
+  }
+
+}
