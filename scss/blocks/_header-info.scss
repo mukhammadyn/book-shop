@@ -1,0 +1,83 @@
+.header-info {
+  padding-top: 16px;
+  padding-bottom: 16px;
+  color: #969696;
+}
+
+.header-info__container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header-info__info {
+  display: flex;
+  align-items: center;
+}
+
+.header-info__call {
+  display: flex;
+  align-items: center;
+  margin-right: 20px;
+  text-decoration: none;
+  color: #969696;
+
+  &::before {
+    margin-right: 8px;
+    width: 15px;
+    height: 15px;
+    background-image: url(../img/icon/phone-icon.svg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    content: '';
+  }
+}
+
+.header-info__days-we-work {
+  display: flex;
+  align-items: center;
+
+  &::before {
+    height: 16px;
+    width: 2px;
+    margin-right: 14px;
+    background-color: #969696;
+    content: '';
+  }
+
+  &::after {
+    height: 16px;
+    width: 2px;
+    margin-left: 14px;
+    background-color: #969696;
+    content: '';
+  }
+}
+
+.header-info__work-time {
+  margin-left: 20px;
+}
+
+.header-info__sign {
+  display: flex;
+  align-items: center;
+
+  &::before {
+    width: 15px;
+    height: 15px;
+    margin-right: 10px;
+    background-image: url(../img/icon/log-in-icon.svg);
+    content: '';
+  }
+}
+
+.header-info__sign-link {
+  text-decoration: none;
+  color: #969696;
+}
+
+@include breakpoint-down(700px) {
+  .header-info {
+    display: none;
+  }
+}
