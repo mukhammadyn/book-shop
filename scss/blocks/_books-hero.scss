@@ -4,12 +4,12 @@
 }
 
 .books-hero__list {
+  @include list-unstyled; 
   display: flex;
   align-items: center;
   flex-wrap: wrap;
   margin-right: -12px;
   margin-bottom: -16px;
-  @include list-unstyled;
 }
 
 .books-hero__item {

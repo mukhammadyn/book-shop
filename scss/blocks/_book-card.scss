@@ -22,6 +22,7 @@
 
 .book-card__img {
   height: 100%;
+  width: 100%;
   object-fit: cover;
 }
 
@@ -186,11 +187,15 @@
 
 }
 
-@include breakpoint-down(940px) {
+@include breakpoint-down(1020px) {
 
   .book-card {
     width: calc(100%/3 - 12px);
   }
+
+}
+
+@include breakpoint-down(940px) {
 
   .book-card__link-wrapper {
     flex-direction: column;
@@ -202,13 +207,13 @@
 
 }
 
-@include breakpoint-down(650px) {
+@include breakpoint-down(770px) {
   .book-card {
     width: calc(100%/2 - 12px);
   }
 } 
 
-@include breakpoint-down(500px) {
+@include breakpoint-down(515px) {
   .book-card {
     width: 100%;
   }
