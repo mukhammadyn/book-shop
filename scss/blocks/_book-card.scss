@@ -1,0 +1,215 @@
+.book-card {
+  width: calc(100%/4 - 12px);
+  position: relative;
+  z-index: 1;
+  border-radius: 3px;
+  overflow: hidden;
+  background-color: $color-card;
+}
+
+.book-card__top {
+  position: relative;
+  z-index: 1;
+  
+  &:hover .book-card__bookmark-btn {
+    display: block;
+  }
+}
+
+.book-card__top-inner {
+  height: 396px;
+}
+
+.book-card__img {
+  height: 100%;
+  object-fit: cover;
+}
+
+.book-card__bookmark-btn {
+  display: none;
+  width: 34px;
+  height: 34px;
+  position: absolute;
+  z-index: 1;
+  top: calc(100% - 39px);
+  left: 5px;
+  padding: 5px;
+  border: none;
+  border-radius: 50%;
+  background-color: rgba(0, 0, 0, 0.5);
+  background-image: url(../img/icon/bookmark-outline.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  cursor: pointer;
+  
+  &:hover {
+    opacity: 0.8;
+  }
+}
+
+.book-card__bookmark-btn--bookmarked {
+  background-image: url(../img/icon/bookmark.svg);
+}
+
+.book-card__body {
+  display: flex;
+  flex-direction: column;
+  padding: 8px;
+}
+
+.book-card__name {
+  max-width: 250px;
+  margin-top: 10px;
+}
+
+.book-card__book-name {
+  margin: 0;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.book-card__author {
+  margin-top: 8px;
+}
+
+.book-card__author-name {
+  margin: 0;
+  font-weight: normal;
+}
+
+.book-card__book-year {
+  display: flex;
+  align-items: center;
+  margin-top: 8px;
+}
+
+.book-card__year {
+  margin-left: 12px;
+}
+
+.book-card__book-pages {
+  display: flex;
+  align-items: center;
+  margin-top: 8px;
+}
+
+.book-card__pages {
+  margin-left: 12px;
+}
+
+.book-card__book-language {
+  display: flex;
+  align-items: center;
+  margin-top: 8px;
+}
+
+.book-card__language {
+  margin-left: 12px;
+}
+
+.book-card__link-wrapper {
+  display: flex;
+  justify-content: flex-end;
+  flex-grow: 1;
+  margin-top: auto;
+}
+
+.book-card__wikipedia {
+  display: flex;
+  align-items: center;
+  color: #fff;
+
+  &::after {
+    display: block;
+    width: 24px;
+    height: 24px;
+    margin-left: 6px;
+    background-image: url(../img/icon/wikipedia-icon.svg);
+    background-repeat: no-repeat;
+    content: '';
+  }
+
+  &:hover {
+    opacity: 0.8;
+  }
+
+  &:active {
+    opacity: 0.6;
+  }
+}
+
+.book-card__bookmark-button {
+  display: none;
+  margin-top: 12px;
+  padding: 3px;
+  border: 2px solid transparent;
+  border-radius: 3px;
+
+  &:hover {
+    background-color: transparent;
+    border-color: #fff;
+    color: #fff;
+  }
+}
+
+@include breakpoint-down(1050px) {
+
+  .book-card__link-wrapper {
+    justify-content: flex-start;
+  }
+
+  .book-card__wikipedia {
+
+    &::after {
+      display: none;
+    }
+
+    &::before {
+      display: block;
+      width: 24px;
+      height: 24px;
+      margin-right: 6px;
+      background-image: url(../img/icon/wikipedia-icon.svg);
+      background-repeat: no-repeat;
+      content: '';
+    }
+  }
+
+}
+
+@include breakpoint-down(1030px) {
+
+  .book-card__body {
+    padding: 12px;
+  }
+
+}
+
+@include breakpoint-down(940px) {
+
+  .book-card {
+    width: calc(100%/3 - 12px);
+  }
+
+  .book-card__link-wrapper {
+    flex-direction: column;
+  }
+
+  .book-card__bookmark-button {
+    display: block;
+  }
+
+}
+
+@include breakpoint-down(650px) {
+  .book-card {
+    width: calc(100%/2 - 12px);
+  }
+} 
+
+@include breakpoint-down(500px) {
+  .book-card {
+    width: 100%;
+  }
+} 

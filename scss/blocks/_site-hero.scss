@@ -16,6 +16,27 @@
   max-width: 730px;
 }
 
+.site-hero__link {
+  display: inline-block;
+  margin-top: 24px;
+  padding: 8px 12px;
+  border: 2px solid #fff;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #fff;
+
+  &:hover {
+    color: rgb(68, 68, 68);
+    background-color: #fff;
+    transition: color 0.3s ease,
+    background-color 0.3s ease;
+  }
+
+  &:active {
+    opacity: 0.6;
+  }
+}
+
 @include breakpoint-down(650px) {
 
   .site-hero {

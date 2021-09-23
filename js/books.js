@@ -1,10 +1,10 @@
-books = [
+var books = [
   {
     "author": "Chinua Achebe",
     "country": "Nigeria",
     "imageLink": "images/things-fall-apart.jpg",
     "language": "English",
-    "link": "https://en.wikipedia.org/wiki/Things_Fall_Apart\n",
+    "link": "https://en.wikipedia.org/wiki/Things_Fall_Apart",
     "pages": 209,
     "title": "Things Fall Apart",
     "year": 1958
@@ -14,7 +14,7 @@ books = [
     "country": "Denmark",
     "imageLink": "images/fairy-tales.jpg",
     "language": "Danish",
-    "link": "https://en.wikipedia.org/wiki/Fairy_Tales_Told_for_Children._First_Collection.\n",
+    "link": "https://en.wikipedia.org/wiki/Fairy_Tales_Told_for_Children._First_Collection.",
     "pages": 784,
     "title": "Fairy tales",
     "year": 1836
@@ -24,7 +24,7 @@ books = [
     "country": "Italy",
     "imageLink": "images/the-divine-comedy.jpg",
     "language": "Italian",
-    "link": "https://en.wikipedia.org/wiki/Divine_Comedy\n",
+    "link": "https://en.wikipedia.org/wiki/Divine_Comedy",
     "pages": 928,
     "title": "The Divine Comedy",
     "year": 1315
@@ -34,7 +34,7 @@ books = [
     "country": "Sumer and Akkadian Empire",
     "imageLink": "images/the-epic-of-gilgamesh.jpg",
     "language": "Akkadian",
-    "link": "https://en.wikipedia.org/wiki/Epic_of_Gilgamesh\n",
+    "link": "https://en.wikipedia.org/wiki/Epic_of_Gilgamesh",
     "pages": 160,
     "title": "The Epic Of Gilgamesh",
     "year": 1700
@@ -44,7 +44,7 @@ books = [
     "country": "Achaemenid Empire",
     "imageLink": "images/the-book-of-job.jpg",
     "language": "Hebrew",
-    "link": "https://en.wikipedia.org/wiki/Book_of_Job\n",
+    "link": "https://en.wikipedia.org/wiki/Book_of_Job",
     "pages": 176,
     "title": "The Book Of Job",
     "year": 600
@@ -54,7 +54,7 @@ books = [
     "country": "India/Iran/Iraq/Egypt/Tajikistan",
     "imageLink": "images/one-thousand-and-one-nights.jpg",
     "language": "Arabic",
-    "link": "https://en.wikipedia.org/wiki/One_Thousand_and_One_Nights\n",
+    "link": "https://en.wikipedia.org/wiki/One_Thousand_and_One_Nights",
     "pages": 288,
     "title": "One Thousand and One Nights",
     "year": 1200
@@ -64,7 +64,7 @@ books = [
     "country": "Iceland",
     "imageLink": "images/njals-saga.jpg",
     "language": "Old Norse",
-    "link": "https://en.wikipedia.org/wiki/Nj%C3%A1ls_saga\n",
+    "link": "https://en.wikipedia.org/wiki/Nj%C3%A1ls_saga",
     "pages": 384,
     "title": "Nj\u00e1l's Saga",
     "year": 1350
@@ -74,7 +74,7 @@ books = [
     "country": "United Kingdom",
     "imageLink": "images/pride-and-prejudice.jpg",
     "language": "English",
-    "link": "https://en.wikipedia.org/wiki/Pride_and_Prejudice\n",
+    "link": "https://en.wikipedia.org/wiki/Pride_and_Prejudice",
     "pages": 226,
     "title": "Pride and Prejudice",
     "year": 1813
@@ -84,7 +84,7 @@ books = [
     "country": "France",
     "imageLink": "images/le-pere-goriot.jpg",
     "language": "French",
-    "link": "https://en.wikipedia.org/wiki/Le_P%C3%A8re_Goriot\n",
+    "link": "https://en.wikipedia.org/wiki/Le_P%C3%A8re_Goriot",
     "pages": 443,
     "title": "Le P\u00e8re Goriot",
     "year": 1835
@@ -94,7 +94,7 @@ books = [
     "country": "Republic of Ireland",
     "imageLink": "images/molloy-malone-dies-the-unnamable.jpg",
     "language": "French, English",
-    "link": "https://en.wikipedia.org/wiki/Molloy_(novel)\n",
+    "link": "https://en.wikipedia.org/wiki/Molloy_(novel)",
     "pages": 256,
     "title": "Molloy, Malone Dies, The Unnamable, the trilogy",
     "year": 1952
@@ -104,7 +104,7 @@ books = [
     "country": "Italy",
     "imageLink": "images/the-decameron.jpg",
     "language": "Italian",
-    "link": "https://en.wikipedia.org/wiki/The_Decameron\n",
+    "link": "https://en.wikipedia.org/wiki/The_Decameron",
     "pages": 1024,
     "title": "The Decameron",
     "year": 1351
@@ -114,7 +114,7 @@ books = [
     "country": "Argentina",
     "imageLink": "images/ficciones.jpg",
     "language": "Spanish",
-    "link": "https://en.wikipedia.org/wiki/Ficciones\n",
+    "link": "https://en.wikipedia.org/wiki/Ficciones",
     "pages": 224,
     "title": "Ficciones",
     "year": 1965
@@ -124,7 +124,7 @@ books = [
     "country": "United Kingdom",
     "imageLink": "images/wuthering-heights.jpg",
     "language": "English",
-    "link": "https://en.wikipedia.org/wiki/Wuthering_Heights\n",
+    "link": "https://en.wikipedia.org/wiki/Wuthering_Heights",
     "pages": 342,
     "title": "Wuthering Heights",
     "year": 1847
@@ -134,7 +134,7 @@ books = [
     "country": "Algeria, French Empire",
     "imageLink": "images/l-etranger.jpg",
     "language": "French",
-    "link": "https://en.wikipedia.org/wiki/The_Stranger_(novel)\n",
+    "link": "https://en.wikipedia.org/wiki/The_Stranger_(novel)",
     "pages": 185,
     "title": "The Stranger",
     "year": 1942
@@ -144,7 +144,7 @@ books = [
     "country": "Romania, France",
     "imageLink": "images/poems-paul-celan.jpg",
     "language": "German",
-    "link": "\n",
+    "link": "",
     "pages": 320,
     "title": "Poems",
     "year": 1952
@@ -154,7 +154,7 @@ books = [
     "country": "France",
     "imageLink": "images/voyage-au-bout-de-la-nuit.jpg",
     "language": "French",
-    "link": "https://en.wikipedia.org/wiki/Journey_to_the_End_of_the_Night\n",
+    "link": "https://en.wikipedia.org/wiki/Journey_to_the_End_of_the_Night",
     "pages": 505,
     "title": "Journey to the End of the Night",
     "year": 1932
@@ -164,7 +164,7 @@ books = [
     "country": "Spain",
     "imageLink": "images/don-quijote-de-la-mancha.jpg",
     "language": "Spanish",
-    "link": "https://en.wikipedia.org/wiki/Don_Quixote\n",
+    "link": "https://en.wikipedia.org/wiki/Don_Quixote",
     "pages": 1056,
     "title": "Don Quijote De La Mancha",
     "year": 1610
@@ -174,7 +174,7 @@ books = [
     "country": "England",
     "imageLink": "images/the-canterbury-tales.jpg",
     "language": "English",
-    "link": "https://en.wikipedia.org/wiki/The_Canterbury_Tales\n",
+    "link": "https://en.wikipedia.org/wiki/The_Canterbury_Tales",
     "pages": 544,
     "title": "The Canterbury Tales",
     "year": 1450
@@ -184,7 +184,7 @@ books = [
     "country": "Russia",
     "imageLink": "images/stories-of-anton-chekhov.jpg",
     "language": "Russian",
-    "link": "https://en.wikipedia.org/wiki/List_of_short_stories_by_Anton_Chekhov\n",
+    "link": "https://en.wikipedia.org/wiki/List_of_short_stories_by_Anton_Chekhov",
     "pages": 194,
     "title": "Stories",
     "year": 1886
@@ -194,7 +194,7 @@ books = [
     "country": "United Kingdom",
     "imageLink": "images/nostromo.jpg",
     "language": "English",
-    "link": "https://en.wikipedia.org/wiki/Nostromo\n",
+    "link": "https://en.wikipedia.org/wiki/Nostromo",
     "pages": 320,
     "title": "Nostromo",
     "year": 1904
@@ -204,7 +204,7 @@ books = [
     "country": "United Kingdom",
     "imageLink": "images/great-expectations.jpg",
     "language": "English",
-    "link": "https://en.wikipedia.org/wiki/Great_Expectations\n",
+    "link": "https://en.wikipedia.org/wiki/Great_Expectations",
     "pages": 194,
     "title": "Great Expectations",
     "year": 1861
@@ -214,7 +214,7 @@ books = [
     "country": "France",
     "imageLink": "images/jacques-the-fatalist.jpg",
     "language": "French",
-    "link": "https://en.wikipedia.org/wiki/Jacques_the_Fatalist\n",
+    "link": "https://en.wikipedia.org/wiki/Jacques_the_Fatalist",
     "pages": 596,
     "title": "Jacques the Fatalist",
     "year": 1796
@@ -224,7 +224,7 @@ books = [
     "country": "Germany",
     "imageLink": "images/berlin-alexanderplatz.jpg",
     "language": "German",
-    "link": "https://en.wikipedia.org/wiki/Berlin_Alexanderplatz\n",
+    "link": "https://en.wikipedia.org/wiki/Berlin_Alexanderplatz",
     "pages": 600,
     "title": "Berlin Alexanderplatz",
     "year": 1929
@@ -234,7 +234,7 @@ books = [
     "country": "Russia",
     "imageLink": "images/crime-and-punishment.jpg",
     "language": "Russian",
-    "link": "https://en.wikipedia.org/wiki/Crime_and_Punishment\n",
+    "link": "https://en.wikipedia.org/wiki/Crime_and_Punishment",
     "pages": 551,
     "title": "Crime and Punishment",
     "year": 1866
@@ -244,7 +244,7 @@ books = [
     "country": "Russia",
     "imageLink": "images/the-idiot.jpg",
     "language": "Russian",
-    "link": "https://en.wikipedia.org/wiki/The_Idiot\n",
+    "link": "https://en.wikipedia.org/wiki/The_Idiot",
     "pages": 656,
     "title": "The Idiot",
     "year": 1869
@@ -254,7 +254,7 @@ books = [
     "country": "Russia",
     "imageLink": "images/the-possessed.jpg",
     "language": "Russian",
-    "link": "https://en.wikipedia.org/wiki/Demons_(Dostoyevsky_novel)\n",
+    "link": "https://en.wikipedia.org/wiki/Demons_(Dostoyevsky_novel)",
     "pages": 768,
     "title": "The Possessed",
     "year": 1872
@@ -264,7 +264,7 @@ books = [
     "country": "Russia",
     "imageLink": "images/the-brothers-karamazov.jpg",
     "language": "Russian",
-    "link": "https://en.wikipedia.org/wiki/The_Brothers_Karamazov\n",
+    "link": "https://en.wikipedia.org/wiki/The_Brothers_Karamazov",
     "pages": 824,
     "title": "The Brothers Karamazov",
     "year": 1880
@@ -274,7 +274,7 @@ books = [
     "country": "United Kingdom",
     "imageLink": "images/middlemarch.jpg",
     "language": "English",
-    "link": "https://en.wikipedia.org/wiki/Middlemarch\n",
+    "link": "https://en.wikipedia.org/wiki/Middlemarch",
     "pages": 800,
     "title": "Middlemarch",
     "year": 1871
@@ -284,7 +284,7 @@ books = [
     "country": "United States",
     "imageLink": "images/invisible-man.jpg",
     "language": "English",
-    "link": "https://en.wikipedia.org/wiki/Invisible_Man\n",
+    "link": "https://en.wikipedia.org/wiki/Invisible_Man",
     "pages": 581,
     "title": "Invisible Man",
     "year": 1952
@@ -294,7 +294,7 @@ books = [
     "country": "Greece",
     "imageLink": "images/medea.jpg",
     "language": "Greek",
-    "link": "https://en.wikipedia.org/wiki/Medea_(play)\n",
+    "link": "https://en.wikipedia.org/wiki/Medea_(play)",
     "pages": 104,
     "title": "Medea",
     "year": 431
@@ -304,7 +304,7 @@ books = [
     "country": "United States",
     "imageLink": "images/absalom-absalom.jpg",
     "language": "English",
-    "link": "https://en.wikipedia.org/wiki/Absalom,_Absalom!\n",
+    "link": "https://en.wikipedia.org/wiki/Absalom,_Absalom!",
     "pages": 313,
     "title": "Absalom, Absalom!",
     "year": 1936
@@ -314,7 +314,7 @@ books = [
     "country": "United States",
     "imageLink": "images/the-sound-and-the-fury.jpg",
     "language": "English",
-    "link": "https://en.wikipedia.org/wiki/The_Sound_and_the_Fury\n",
+    "link": "https://en.wikipedia.org/wiki/The_Sound_and_the_Fury",
     "pages": 326,
     "title": "The Sound and the Fury",
     "year": 1929
@@ -324,7 +324,7 @@ books = [
     "country": "France",
     "imageLink": "images/madame-bovary.jpg",
     "language": "French",
-    "link": "https://en.wikipedia.org/wiki/Madame_Bovary\n",
+    "link": "https://en.wikipedia.org/wiki/Madame_Bovary",
     "pages": 528,
     "title": "Madame Bovary",
     "year": 1857
@@ -334,7 +334,7 @@ books = [
     "country": "France",
     "imageLink": "images/l-education-sentimentale.jpg",
     "language": "French",
-    "link": "https://en.wikipedia.org/wiki/Sentimental_Education\n",
+    "link": "https://en.wikipedia.org/wiki/Sentimental_Education",
     "pages": 606,
     "title": "Sentimental Education",
     "year": 1869
@@ -344,7 +344,7 @@ books = [
     "country": "Spain",
     "imageLink": "images/gypsy-ballads.jpg",
     "language": "Spanish",
-    "link": "https://en.wikipedia.org/wiki/Gypsy_Ballads\n",
+    "link": "https://en.wikipedia.org/wiki/Gypsy_Ballads",
     "pages": 218,
     "title": "Gypsy Ballads",
     "year": 1928
@@ -354,7 +354,7 @@ books = [
     "country": "Colombia",
     "imageLink": "images/one-hundred-years-of-solitude.jpg",
     "language": "Spanish",
-    "link": "https://en.wikipedia.org/wiki/One_Hundred_Years_of_Solitude\n",
+    "link": "https://en.wikipedia.org/wiki/One_Hundred_Years_of_Solitude",
     "pages": 417,
     "title": "One Hundred Years of Solitude",
     "year": 1967
@@ -364,7 +364,7 @@ books = [
     "country": "Colombia",
     "imageLink": "images/love-in-the-time-of-cholera.jpg",
     "language": "Spanish",
-    "link": "https://en.wikipedia.org/wiki/Love_in_the_Time_of_Cholera\n",
+    "link": "https://en.wikipedia.org/wiki/Love_in_the_Time_of_Cholera",
     "pages": 368,
     "title": "Love in the Time of Cholera",
     "year": 1985
@@ -374,7 +374,7 @@ books = [
     "country": "Saxe-Weimar",
     "imageLink": "images/faust.jpg",
     "language": "German",
-    "link": "https://en.wikipedia.org/wiki/Goethe%27s_Faust\n",
+    "link": "https://en.wikipedia.org/wiki/Goethe%27s_Faust",
     "pages": 158,
     "title": "Faust",
     "year": 1832
@@ -384,7 +384,7 @@ books = [
     "country": "Russia",
     "imageLink": "images/dead-souls.jpg",
     "language": "Russian",
-    "link": "https://en.wikipedia.org/wiki/Dead_Souls\n",
+    "link": "https://en.wikipedia.org/wiki/Dead_Souls",
     "pages": 432,
     "title": "Dead Souls",
     "year": 1842
@@ -394,7 +394,7 @@ books = [
     "country": "Germany",
     "imageLink": "images/the-tin-drum.jpg",
     "language": "German",
-    "link": "https://en.wikipedia.org/wiki/The_Tin_Drum\n",
+    "link": "https://en.wikipedia.org/wiki/The_Tin_Drum",
     "pages": 600,
     "title": "The Tin Drum",
     "year": 1959
@@ -404,7 +404,7 @@ books = [
     "country": "Brazil",
     "imageLink": "images/the-devil-to-pay-in-the-backlands.jpg",
     "language": "Portuguese",
-    "link": "https://en.wikipedia.org/wiki/The_Devil_to_Pay_in_the_Backlands\n",
+    "link": "https://en.wikipedia.org/wiki/The_Devil_to_Pay_in_the_Backlands",
     "pages": 494,
     "title": "The Devil to Pay in the Backlands",
     "year": 1956
@@ -414,7 +414,7 @@ books = [
     "country": "Norway",
     "imageLink": "images/hunger.jpg",
     "language": "Norwegian",
-    "link": "https://en.wikipedia.org/wiki/Hunger_(Hamsun_novel)\n",
+    "link": "https://en.wikipedia.org/wiki/Hunger_(Hamsun_novel)",
     "pages": 176,
     "title": "Hunger",
     "year": 1890
@@ -424,7 +424,7 @@ books = [
     "country": "United States",
     "imageLink": "images/the-old-man-and-the-sea.jpg",
     "language": "English",
-    "link": "https://en.wikipedia.org/wiki/The_Old_Man_and_the_Sea\n",
+    "link": "https://en.wikipedia.org/wiki/The_Old_Man_and_the_Sea",
     "pages": 128,
     "title": "The Old Man and the Sea",
     "year": 1952
@@ -434,7 +434,7 @@ books = [
     "country": "Greece",
     "imageLink": "images/the-iliad-of-homer.jpg",
     "language": "Greek",
-    "link": "https://en.wikipedia.org/wiki/Iliad\n",
+    "link": "https://en.wikipedia.org/wiki/Iliad",
     "pages": 608,
     "title": "Iliad",
     "year": 735
@@ -444,7 +444,7 @@ books = [
     "country": "Greece",
     "imageLink": "images/the-odyssey-of-homer.jpg",
     "language": "Greek",
-    "link": "https://en.wikipedia.org/wiki/Odyssey\n",
+    "link": "https://en.wikipedia.org/wiki/Odyssey",
     "pages": 374,
     "title": "Odyssey",
     "year": 800
@@ -454,7 +454,7 @@ books = [
     "country": "Norway",
     "imageLink": "images/a-Dolls-house.jpg",
     "language": "Norwegian",
-    "link": "https://en.wikipedia.org/wiki/A_Doll%27s_House\n",
+    "link": "https://en.wikipedia.org/wiki/A_Doll%27s_House",
     "pages": 68,
     "title": "A Doll's House",
     "year": 1879
@@ -464,7 +464,7 @@ books = [
     "country": "Irish Free State",
     "imageLink": "images/ulysses.jpg",
     "language": "English",
-    "link": "https://en.wikipedia.org/wiki/Ulysses_(novel)\n",
+    "link": "https://en.wikipedia.org/wiki/Ulysses_(novel)",
     "pages": 228,
     "title": "Ulysses",
     "year": 1922
@@ -474,7 +474,7 @@ books = [
     "country": "Czechoslovakia",
     "imageLink": "images/stories-of-franz-kafka.jpg",
     "language": "German",
-    "link": "https://en.wikipedia.org/wiki/Franz_Kafka_bibliography#Short_stories\n",
+    "link": "https://en.wikipedia.org/wiki/Franz_Kafka_bibliography#Short_stories",
     "pages": 488,
     "title": "Stories",
     "year": 1924
@@ -484,7 +484,7 @@ books = [
     "country": "Czechoslovakia",
     "imageLink": "images/the-trial.jpg",
     "language": "German",
-    "link": "https://en.wikipedia.org/wiki/The_Trial\n",
+    "link": "https://en.wikipedia.org/wiki/The_Trial",
     "pages": 160,
     "title": "The Trial",
     "year": 1925
@@ -494,7 +494,7 @@ books = [
     "country": "Czechoslovakia",
     "imageLink": "images/the-castle.jpg",
     "language": "German",
-    "link": "https://en.wikipedia.org/wiki/The_Castle_(novel)\n",
+    "link": "https://en.wikipedia.org/wiki/The_Castle_(novel)",
     "pages": 352,
     "title": "The Castle",
     "year": 1926
@@ -504,7 +504,7 @@ books = [
     "country": "India",
     "imageLink": "images/the-recognition-of-shakuntala.jpg",
     "language": "Sanskrit",
-    "link": "https://en.wikipedia.org/wiki/Abhij%C3%B1%C4%81na%C5%9B%C4%81kuntalam\n",
+    "link": "https://en.wikipedia.org/wiki/Abhij%C3%B1%C4%81na%C5%9B%C4%81kuntalam",
     "pages": 147,
     "title": "The recognition of Shakuntala",
     "year": 150
@@ -514,7 +514,7 @@ books = [
     "country": "Japan",
     "imageLink": "images/the-sound-of-the-mountain.jpg",
     "language": "Japanese",
-    "link": "https://en.wikipedia.org/wiki/The_Sound_of_the_Mountain\n",
+    "link": "https://en.wikipedia.org/wiki/The_Sound_of_the_Mountain",
     "pages": 288,
     "title": "The Sound of the Mountain",
     "year": 1954
@@ -524,7 +524,7 @@ books = [
     "country": "Greece",
     "imageLink": "images/zorba-the-greek.jpg",
     "language": "Greek",
-    "link": "https://en.wikipedia.org/wiki/Zorba_the_Greek\n",
+    "link": "https://en.wikipedia.org/wiki/Zorba_the_Greek",
     "pages": 368,
     "title": "Zorba the Greek",
     "year": 1946
@@ -534,7 +534,7 @@ books = [
     "country": "United Kingdom",
     "imageLink": "images/sons-and-lovers.jpg",
     "language": "English",
-    "link": "https://en.wikipedia.org/wiki/Sons_and_Lovers\n",
+    "link": "https://en.wikipedia.org/wiki/Sons_and_Lovers",
     "pages": 432,
     "title": "Sons and Lovers",
     "year": 1913
@@ -544,7 +544,7 @@ books = [
     "country": "Iceland",
     "imageLink": "images/independent-people.jpg",
     "language": "Icelandic",
-    "link": "https://en.wikipedia.org/wiki/Independent_People\n",
+    "link": "https://en.wikipedia.org/wiki/Independent_People",
     "pages": 470,
     "title": "Independent People",
     "year": 1934
@@ -554,7 +554,7 @@ books = [
     "country": "Italy",
     "imageLink": "images/poems-giacomo-leopardi.jpg",
     "language": "Italian",
-    "link": "\n",
+    "link": "",
     "pages": 184,
     "title": "Poems",
     "year": 1818
@@ -564,7 +564,7 @@ books = [
     "country": "United Kingdom",
     "imageLink": "images/the-golden-notebook.jpg",
     "language": "English",
-    "link": "https://en.wikipedia.org/wiki/The_Golden_Notebook\n",
+    "link": "https://en.wikipedia.org/wiki/The_Golden_Notebook",
     "pages": 688,
     "title": "The Golden Notebook",
     "year": 1962
@@ -574,7 +574,7 @@ books = [
     "country": "Sweden",
     "imageLink": "images/pippi-longstocking.jpg",
     "language": "Swedish",
-    "link": "https://en.wikipedia.org/wiki/Pippi_Longstocking\n",
+    "link": "https://en.wikipedia.org/wiki/Pippi_Longstocking",
     "pages": 160,
     "title": "Pippi Longstocking",
     "year": 1945
@@ -584,7 +584,7 @@ books = [
     "country": "China",
     "imageLink": "images/diary-of-a-madman.jpg",
     "language": "Chinese",
-    "link": "https://en.wikipedia.org/wiki/A_Madman%27s_Diary\n",
+    "link": "https://en.wikipedia.org/wiki/A_Madman%27s_Diary",
     "pages": 389,
     "title": "Diary of a Madman",
     "year": 1918
@@ -594,7 +594,7 @@ books = [
     "country": "Egypt",
     "imageLink": "images/children-of-gebelawi.jpg",
     "language": "Arabic",
-    "link": "https://en.wikipedia.org/wiki/Children_of_Gebelawi\n",
+    "link": "https://en.wikipedia.org/wiki/Children_of_Gebelawi",
     "pages": 355,
     "title": "Children of Gebelawi",
     "year": 1959
@@ -604,7 +604,7 @@ books = [
     "country": "Germany",
     "imageLink": "images/buddenbrooks.jpg",
     "language": "German",
-    "link": "https://en.wikipedia.org/wiki/Buddenbrooks\n",
+    "link": "https://en.wikipedia.org/wiki/Buddenbrooks",
     "pages": 736,
     "title": "Buddenbrooks",
     "year": 1901
@@ -614,7 +614,7 @@ books = [
     "country": "Germany",
     "imageLink": "images/the-magic-mountain.jpg",
     "language": "German",
-    "link": "https://en.wikipedia.org/wiki/The_Magic_Mountain\n",
+    "link": "https://en.wikipedia.org/wiki/The_Magic_Mountain",
     "pages": 720,
     "title": "The Magic Mountain",
     "year": 1924
@@ -624,7 +624,7 @@ books = [
     "country": "United States",
     "imageLink": "images/moby-dick.jpg",
     "language": "English",
-    "link": "https://en.wikipedia.org/wiki/Moby-Dick\n",
+    "link": "https://en.wikipedia.org/wiki/Moby-Dick",
     "pages": 378,
     "title": "Moby Dick",
     "year": 1851
@@ -634,7 +634,7 @@ books = [
     "country": "France",
     "imageLink": "images/essais.jpg",
     "language": "French",
-    "link": "https://en.wikipedia.org/wiki/Essays_(Montaigne)\n",
+    "link": "https://en.wikipedia.org/wiki/Essays_(Montaigne)",
     "pages": 404,
     "title": "Essays",
     "year": 1595
@@ -644,7 +644,7 @@ books = [
     "country": "Italy",
     "imageLink": "images/history.jpg",
     "language": "Italian",
-    "link": "https://en.wikipedia.org/wiki/History_(novel)\n",
+    "link": "https://en.wikipedia.org/wiki/History_(novel)",
     "pages": 600,
     "title": "History",
     "year": 1974
@@ -654,7 +654,7 @@ books = [
     "country": "United States",
     "imageLink": "images/beloved.jpg",
     "language": "English",
-    "link": "https://en.wikipedia.org/wiki/Beloved_(novel)\n",
+    "link": "https://en.wikipedia.org/wiki/Beloved_(novel)",
     "pages": 321,
     "title": "Beloved",
     "year": 1987
@@ -664,7 +664,7 @@ books = [
     "country": "Japan",
     "imageLink": "images/the-tale-of-genji.jpg",
     "language": "Japanese",
-    "link": "https://en.wikipedia.org/wiki/The_Tale_of_Genji\n",
+    "link": "https://en.wikipedia.org/wiki/The_Tale_of_Genji",
     "pages": 1360,
     "title": "The Tale of Genji",
     "year": 1006
@@ -674,7 +674,7 @@ books = [
     "country": "Austria",
     "imageLink": "images/the-man-without-qualities.jpg",
     "language": "German",
-    "link": "https://en.wikipedia.org/wiki/The_Man_Without_Qualities\n",
+    "link": "https://en.wikipedia.org/wiki/The_Man_Without_Qualities",
     "pages": 365,
     "title": "The Man Without Qualities",
     "year": 1931
@@ -684,7 +684,7 @@ books = [
     "country": "Russia/United States",
     "imageLink": "images/lolita.jpg",
     "language": "English",
-    "link": "https://en.wikipedia.org/wiki/Lolita\n",
+    "link": "https://en.wikipedia.org/wiki/Lolita",
     "pages": 317,
     "title": "Lolita",
     "year": 1955
@@ -694,7 +694,7 @@ books = [
     "country": "United Kingdom",
     "imageLink": "images/nineteen-eighty-four.jpg",
     "language": "English",
-    "link": "https://en.wikipedia.org/wiki/Nineteen_Eighty-Four\n",
+    "link": "https://en.wikipedia.org/wiki/Nineteen_Eighty-Four",
     "pages": 272,
     "title": "Nineteen Eighty-Four",
     "year": 1949
@@ -704,7 +704,7 @@ books = [
     "country": "Roman Empire",
     "imageLink": "images/the-metamorphoses-of-ovid.jpg",
     "language": "Classical Latin",
-    "link": "https://en.wikipedia.org/wiki/Metamorphoses\n",
+    "link": "https://en.wikipedia.org/wiki/Metamorphoses",
     "pages": 576,
     "title": "Metamorphoses",
     "year": 100
@@ -714,7 +714,7 @@ books = [
     "country": "Portugal",
     "imageLink": "images/the-book-of-disquiet.jpg",
     "language": "Portuguese",
-    "link": "https://en.wikipedia.org/wiki/The_Book_of_Disquiet\n",
+    "link": "https://en.wikipedia.org/wiki/The_Book_of_Disquiet",
     "pages": 272,
     "title": "The Book of Disquiet",
     "year": 1928
@@ -724,7 +724,7 @@ books = [
     "country": "United States",
     "imageLink": "images/tales-and-poems-of-edgar-allan-poe.jpg",
     "language": "English",
-    "link": "https://en.wikipedia.org/wiki/Edgar_Allan_Poe_bibliography#Tales\n",
+    "link": "https://en.wikipedia.org/wiki/Edgar_Allan_Poe_bibliography#Tales",
     "pages": 842,
     "title": "Tales",
     "year": 1950
@@ -734,7 +734,7 @@ books = [
     "country": "France",
     "imageLink": "images/a-la-recherche-du-temps-perdu.jpg",
     "language": "French",
-    "link": "https://en.wikipedia.org/wiki/In_Search_of_Lost_Time\n",
+    "link": "https://en.wikipedia.org/wiki/In_Search_of_Lost_Time",
     "pages": 2408,
     "title": "In Search of Lost Time",
     "year": 1920
@@ -744,7 +744,7 @@ books = [
     "country": "France",
     "imageLink": "images/gargantua-and-pantagruel.jpg",
     "language": "French",
-    "link": "https://en.wikipedia.org/wiki/Gargantua_and_Pantagruel\n",
+    "link": "https://en.wikipedia.org/wiki/Gargantua_and_Pantagruel",
     "pages": 623,
     "title": "Gargantua and Pantagruel",
     "year": 1533
@@ -754,7 +754,7 @@ books = [
     "country": "Mexico",
     "imageLink": "images/pedro-paramo.jpg",
     "language": "Spanish",
-    "link": "https://en.wikipedia.org/wiki/Pedro_P%C3%A1ramo\n",
+    "link": "https://en.wikipedia.org/wiki/Pedro_P%C3%A1ramo",
     "pages": 124,
     "title": "Pedro P\u00e1ramo",
     "year": 1955
@@ -764,7 +764,7 @@ books = [
     "country": "Sultanate of Rum",
     "imageLink": "images/the-masnavi.jpg",
     "language": "Persian",
-    "link": "https://en.wikipedia.org/wiki/Masnavi\n",
+    "link": "https://en.wikipedia.org/wiki/Masnavi",
     "pages": 438,
     "title": "The Masnavi",
     "year": 1236
@@ -774,7 +774,7 @@ books = [
     "country": "United Kingdom, India",
     "imageLink": "images/midnights-children.jpg",
     "language": "English",
-    "link": "https://en.wikipedia.org/wiki/Midnight%27s_Children\n",
+    "link": "https://en.wikipedia.org/wiki/Midnight%27s_Children",
     "pages": 536,
     "title": "Midnight's Children",
     "year": 1981
@@ -784,7 +784,7 @@ books = [
     "country": "Persia, Persian Empire",
     "imageLink": "images/bostan.jpg",
     "language": "Persian",
-    "link": "https://en.wikipedia.org/wiki/Bustan_(book)\n",
+    "link": "https://en.wikipedia.org/wiki/Bustan_(book)",
     "pages": 298,
     "title": "Bostan",
     "year": 1257
@@ -794,7 +794,7 @@ books = [
     "country": "Sudan",
     "imageLink": "images/season-of-migration-to-the-north.jpg",
     "language": "Arabic",
-    "link": "https://en.wikipedia.org/wiki/Season_of_Migration_to_the_North\n",
+    "link": "https://en.wikipedia.org/wiki/Season_of_Migration_to_the_North",
     "pages": 139,
     "title": "Season of Migration to the North",
     "year": 1966
@@ -804,7 +804,7 @@ books = [
     "country": "Portugal",
     "imageLink": "images/blindness.jpg",
     "language": "Portuguese",
-    "link": "https://en.wikipedia.org/wiki/Blindness_(novel)\n",
+    "link": "https://en.wikipedia.org/wiki/Blindness_(novel)",
     "pages": 352,
     "title": "Blindness",
     "year": 1995
@@ -814,7 +814,7 @@ books = [
     "country": "England",
     "imageLink": "images/hamlet.jpg",
     "language": "English",
-    "link": "https://en.wikipedia.org/wiki/Hamlet\n",
+    "link": "https://en.wikipedia.org/wiki/Hamlet",
     "pages": 432,
     "title": "Hamlet",
     "year": 1603
@@ -824,7 +824,7 @@ books = [
     "country": "England",
     "imageLink": "images/king-lear.jpg",
     "language": "English",
-    "link": "https://en.wikipedia.org/wiki/King_Lear\n",
+    "link": "https://en.wikipedia.org/wiki/King_Lear",
     "pages": 384,
     "title": "King Lear",
     "year": 1608
@@ -834,7 +834,7 @@ books = [
     "country": "England",
     "imageLink": "images/othello.jpg",
     "language": "English",
-    "link": "https://en.wikipedia.org/wiki/Othello\n",
+    "link": "https://en.wikipedia.org/wiki/Othello",
     "pages": 314,
     "title": "Othello",
     "year": 1609
@@ -844,7 +844,7 @@ books = [
     "country": "Greece",
     "imageLink": "images/oedipus-the-king.jpg",
     "language": "Greek",
-    "link": "https://en.wikipedia.org/wiki/Oedipus_the_King\n",
+    "link": "https://en.wikipedia.org/wiki/Oedipus_the_King",
     "pages": 88,
     "title": "Oedipus the King",
     "year": 430
@@ -854,7 +854,7 @@ books = [
     "country": "France",
     "imageLink": "images/le-rouge-et-le-noir.jpg",
     "language": "French",
-    "link": "https://en.wikipedia.org/wiki/The_Red_and_the_Black\n",
+    "link": "https://en.wikipedia.org/wiki/The_Red_and_the_Black",
     "pages": 576,
     "title": "The Red and the Black",
     "year": 1830
@@ -864,7 +864,7 @@ books = [
     "country": "England",
     "imageLink": "images/the-life-and-opinions-of-tristram-shandy.jpg",
     "language": "English",
-    "link": "https://en.wikipedia.org/wiki/The_Life_and_Opinions_of_Tristram_Shandy,_Gentleman\n",
+    "link": "https://en.wikipedia.org/wiki/The_Life_and_Opinions_of_Tristram_Shandy,_Gentleman",
     "pages": 640,
     "title": "The Life And Opinions of Tristram Shandy",
     "year": 1760
@@ -874,7 +874,7 @@ books = [
     "country": "Italy",
     "imageLink": "images/confessions-of-zeno.jpg",
     "language": "Italian",
-    "link": "https://en.wikipedia.org/wiki/Zeno%27s_Conscience\n",
+    "link": "https://en.wikipedia.org/wiki/Zeno%27s_Conscience",
     "pages": 412,
     "title": "Confessions of Zeno",
     "year": 1923
@@ -884,7 +884,7 @@ books = [
     "country": "Ireland",
     "imageLink": "images/gullivers-travels.jpg",
     "language": "English",
-    "link": "https://en.wikipedia.org/wiki/Gulliver%27s_Travels\n",
+    "link": "https://en.wikipedia.org/wiki/Gulliver%27s_Travels",
     "pages": 178,
     "title": "Gulliver's Travels",
     "year": 1726
@@ -894,7 +894,7 @@ books = [
     "country": "Russia",
     "imageLink": "images/war-and-peace.jpg",
     "language": "Russian",
-    "link": "https://en.wikipedia.org/wiki/War_and_Peace\n",
+    "link": "https://en.wikipedia.org/wiki/War_and_Peace",
     "pages": 1296,
     "title": "War and Peace",
     "year": 1867
@@ -904,7 +904,7 @@ books = [
     "country": "Russia",
     "imageLink": "images/anna-karenina.jpg",
     "language": "Russian",
-    "link": "https://en.wikipedia.org/wiki/Anna_Karenina\n",
+    "link": "https://en.wikipedia.org/wiki/Anna_Karenina",
     "pages": 864,
     "title": "Anna Karenina",
     "year": 1877
@@ -914,7 +914,7 @@ books = [
     "country": "Russia",
     "imageLink": "images/the-death-of-ivan-ilyich.jpg",
     "language": "Russian",
-    "link": "https://en.wikipedia.org/wiki/The_Death_of_Ivan_Ilyich\n",
+    "link": "https://en.wikipedia.org/wiki/The_Death_of_Ivan_Ilyich",
     "pages": 92,
     "title": "The Death of Ivan Ilyich",
     "year": 1886
@@ -924,7 +924,7 @@ books = [
     "country": "United States",
     "imageLink": "images/the-adventures-of-huckleberry-finn.jpg",
     "language": "English",
-    "link": "https://en.wikipedia.org/wiki/Adventures_of_Huckleberry_Finn\n",
+    "link": "https://en.wikipedia.org/wiki/Adventures_of_Huckleberry_Finn",
     "pages": 224,
     "title": "The Adventures of Huckleberry Finn",
     "year": 1884
@@ -934,7 +934,7 @@ books = [
     "country": "India",
     "imageLink": "images/ramayana.jpg",
     "language": "Sanskrit",
-    "link": "https://en.wikipedia.org/wiki/Ramayana\n",
+    "link": "https://en.wikipedia.org/wiki/Ramayana",
     "pages": 152,
     "title": "Ramayana",
     "year": 450
@@ -944,7 +944,7 @@ books = [
     "country": "Roman Empire",
     "imageLink": "images/the-aeneid.jpg",
     "language": "Classical Latin",
-    "link": "https://en.wikipedia.org/wiki/Aeneid\n",
+    "link": "https://en.wikipedia.org/wiki/Aeneid",
     "pages": 442,
     "title": "The Aeneid",
     "year": 23
@@ -954,7 +954,7 @@ books = [
     "country": "India",
     "imageLink": "images/the-mahab-harata.jpg",
     "language": "Sanskrit",
-    "link": "https://en.wikipedia.org/wiki/Mahabharata\n",
+    "link": "https://en.wikipedia.org/wiki/Mahabharata",
     "pages": 276,
     "title": "Mahabharata",
     "year": 700
@@ -964,7 +964,7 @@ books = [
     "country": "United States",
     "imageLink": "images/leaves-of-grass.jpg",
     "language": "English",
-    "link": "https://en.wikipedia.org/wiki/Leaves_of_Grass\n",
+    "link": "https://en.wikipedia.org/wiki/Leaves_of_Grass",
     "pages": 152,
     "title": "Leaves of Grass",
     "year": 1855
@@ -974,7 +974,7 @@ books = [
     "country": "United Kingdom",
     "imageLink": "images/mrs-dalloway.jpg",
     "language": "English",
-    "link": "https://en.wikipedia.org/wiki/Mrs_Dalloway\n",
+    "link": "https://en.wikipedia.org/wiki/Mrs_Dalloway",
     "pages": 216,
     "title": "Mrs Dalloway",
     "year": 1925
@@ -984,7 +984,7 @@ books = [
     "country": "United Kingdom",
     "imageLink": "images/to-the-lighthouse.jpg",
     "language": "English",
-    "link": "https://en.wikipedia.org/wiki/To_the_Lighthouse\n",
+    "link": "https://en.wikipedia.org/wiki/To_the_Lighthouse",
     "pages": 209,
     "title": "To the Lighthouse",
     "year": 1927
@@ -994,7 +994,7 @@ books = [
     "country": "France/Belgium",
     "imageLink": "images/memoirs-of-hadrian.jpg",
     "language": "French",
-    "link": "https://en.wikipedia.org/wiki/Memoirs_of_Hadrian\n",
+    "link": "https://en.wikipedia.org/wiki/Memoirs_of_Hadrian",
     "pages": 408,
     "title": "Memoirs of Hadrian",
     "year": 1951
