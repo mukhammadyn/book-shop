@@ -734,10 +734,9 @@ img {
 .site-hero {
   padding-top: 35px;
   padding-bottom: 35px;
-  background-image: url(../img/opened-book.jpg);
+  background-image: url(../img/book.jpg);
   background-repeat: no-repeat;
-  background-size: 100%;
-  background-position: center bottom;
+  background-position: center;
   background-attachment: fixed;
   -webkit-backface-visibility: hidden;
           backface-visibility: hidden;
