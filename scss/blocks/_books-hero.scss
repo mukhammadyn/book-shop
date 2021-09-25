@@ -12,6 +12,10 @@
   margin-bottom: -16px;
 }
 
+.books-hero__index-list {
+  @extend .books-hero__list;
+}
+
 .books-hero__item {
   margin-right: 12px;
   margin-bottom: 16px;

@@ -1,7 +1,8 @@
 .header-navigation {
   position: relative;
-  z-index: 1;
+  z-index: 2;
   background-color: $color-secondary;
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
 }
 
 .header-navigation__container {
@@ -29,9 +30,14 @@
 
 .header-navigation__links-toggle {
   display: none;
+  width: 30px;
+  height: 30px;
   padding: 0;
-  background-color: transparent;
   border: none;
+  background-color: transparent;
+  background-image: url(../img/icon/menu-btn-close.svg);
+  background-repeat: no-repeat;
+  background-position: center;
   cursor: pointer;
 
   &:hover {
@@ -41,6 +47,10 @@
   &:active {
     opacity: 0.6;
   }
+}
+
+.header-navigation__links-toggle--open {
+  background-image: url(../img/icon/menu-btn-open.svg);
 }
 
 .header-navigation__links {

@@ -1,9 +1,12 @@
 .site-hero {
-  padding-top: 90px;
-  padding-bottom: 90px;
-  background-color: rgb(68, 68, 68);
+  padding-top: 35px;
+  padding-bottom: 35px;
+  background-image: url(../img/opened-book.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: center bottom;
   background-attachment: fixed;
-  
+  backface-visibility: hidden;
 }
 
 .site-hero__container {
@@ -12,7 +15,7 @@
 
 .site-hero__text {
   margin: 0 auto;
-  margin-top: 80px;
+  margin-top: 32px;
   max-width: 730px;
 }
 
@@ -50,11 +53,34 @@
 
 }
 
-@include breakpoint-down(370px) {
+@include breakpoint-down(425px) {
 
   .site-hero {
     padding-top: 45px;
     padding-bottom: 45px;
+  }
+
+  .site-hero__logo {
+    width: 120px;
+    height: 120px;
+  }
+
+  .site-hero__text {
+    margin-top: 20px;
+    font-size: 13px;
+  }
+
+  .site-hero__link {
+    font-size: 12px;
+  }
+
+}
+
+@include breakpoint-down(370px) {
+
+  .site-hero {
+    padding-top: 30px;
+    padding-bottom: 30px;
   }
 
   .site-hero__text {
