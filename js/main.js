@@ -8,7 +8,7 @@ const elNavigation = document.querySelector('.header-navigation__nav');
 const elSearchButton = document.querySelector('.js-search-button');
 const elSearchModal = document.querySelector('.search-modal'); 
 
-if (document.location.href == 'http://127.0.0.1:5500/books.html') {
+if (document.location.href == 'http://127.0.0.1:5500/books.html' || document.location.href == 'https://mukhammadyn-book-shop.netlify.app/books.html') {
   const elSearchModalForm = document.querySelector('.js-search-modal-form');
   const elSearchModalFormInputName = elSearchModalForm.querySelector('.js-search-by-name');
   const elSearchModalFormStartYear = elSearchModalForm.querySelector('.js-search-by-start-year');
@@ -169,7 +169,7 @@ if (document.location.href == 'http://127.0.0.1:5500/books.html') {
   getLanguages();
   appendLanguages();
   showBooks(books.slice(0, 50));
-} else if (document.location.href == 'http://127.0.0.1:5500/index.html') {
+} else if (document.location.href == 'http://127.0.0.1:5500/index.html' || document.location.href == 'https://mukhammadyn-book-shop.netlify.app/index.html') {
 
   // BOOK LIST
   const elBooksList = document.querySelector('.books-hero__index-list');
