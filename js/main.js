@@ -1,12 +1,16 @@
 let languages = [];
 let countries = [];
 let newBooksList = [];
+let bookmarkList = [];
 
 // NAVIGATION
 const elNavToggler = document.querySelector('.js-nav-toggler');
 const elNavigation = document.querySelector('.header-navigation__nav');
 const elSearchButton = document.querySelector('.js-search-button');
 const elSearchModal = document.querySelector('.search-modal'); 
+
+// BOOK CARD
+const elBookmarkBtn = document.querySelectorAll('.js-bookmark-btn');
 
 if (document.location.href.includes('/books.html')) {
   const elSearchModalForm = document.querySelector('.js-search-modal-form');
@@ -86,7 +90,6 @@ if (document.location.href.includes('/books.html')) {
       elNewBookCard.querySelector('.book-card__img').src = book.imageLink;
       elNewBookCard.querySelector('.book-card__img').alt = book.title;
       if (titleRegex.source !== '(?:)' && titleRegex) {
-        console.log('asdkjasj');
         elNewBookCard.querySelector('.book-card__book-name').innerHTML = book.title.replace(titleRegex, `<i style = 'background-color: #fff; color: #000;'>${titleRegex.source}</i>`);
       } else {
         elNewBookCard.querySelector('.book-card__book-name').textContent = book.title;
@@ -97,6 +100,9 @@ if (document.location.href.includes('/books.html')) {
       elNewBookCard.querySelector('.book-card__pages').textContent = book.pages;
       elNewBookCard.querySelector('.book-card__language').textContent = book.language;
       elNewBookCard.querySelector('.book-card__wikipedia').href = book.link;
+      elNewBookCard.querySelectorAll('.js-bookmark-btn').forEach(btn => {
+        btn.dataset.imdbId = book.imdbId;
+      });
       
       elBookFragment.appendChild(elNewBookCard);
     }
@@ -164,6 +170,12 @@ if (document.location.href.includes('/books.html')) {
     elSearchModalFormSubmit.addEventListener('click', onBookSearchSubmit);
   }
 
+  window.onclick = function(evt) {
+    if (evt.target == elSearchModal) {
+      elSearchModal.classList.remove('search-modal--open');
+    }
+  }
+
   getCountries();
   appendCountries();
   getLanguages();
@@ -221,10 +233,4 @@ if (elNavToggler) {
 
 if (elSearchButton) {
   elSearchButton.addEventListener('click', openSearchModal);
-}
-
-window.onclick = function(evt) {
-  if (evt.target == elSearchModal) {
-    elSearchModal.classList.remove('search-modal--open');
-  }
 }
