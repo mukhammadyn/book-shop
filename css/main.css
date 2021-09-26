@@ -734,9 +734,9 @@ img {
 .site-hero {
   padding-top: 35px;
   padding-bottom: 35px;
-  background-image: url(../img/book.jpg);
+  background-image: url(../img/books-mountain2.jpg);
   background-repeat: no-repeat;
-  background-position: center;
+  background-position: right center;
   background-attachment: fixed;
   -webkit-backface-visibility: hidden;
           backface-visibility: hidden;
@@ -1011,13 +1011,13 @@ img {
           box-shadow: 0 -2px 10px black;
 }
 
+.book-card:hover .book-card__bookmark-btn {
+  display: block;
+}
+
 .book-card__top {
   position: relative;
   z-index: 1;
-}
-
-.book-card__top:hover .book-card__bookmark-btn {
-  display: block;
 }
 
 .book-card__top-inner {
@@ -1188,6 +1188,7 @@ img {
 
 @media only screen and (max-width: 1050px) {
   .book-card__link-wrapper {
+    margin-top: 8px;
     -webkit-box-pack: start;
         -ms-flex-pack: start;
             justify-content: flex-start;
@@ -1199,7 +1200,7 @@ img {
     display: block;
     width: 24px;
     height: 24px;
-    margin-right: 6px;
+    margin-right: 12px;
     background-image: url(../img/icon/wikipedia-icon.svg);
     background-repeat: no-repeat;
     content: '';
@@ -1224,6 +1225,9 @@ img {
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
+  }
+  .book-card:hover {
+    display: none;
   }
   .book-card__bookmark-button {
     display: block;

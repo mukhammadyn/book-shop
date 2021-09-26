@@ -1,6 +1,6 @@
 let languages = [];
 let countries = [];
-let elNewBooksList = [];
+let newBooksList = [];
 
 // NAVIGATION
 const elNavToggler = document.querySelector('.js-nav-toggler');
@@ -8,7 +8,7 @@ const elNavigation = document.querySelector('.header-navigation__nav');
 const elSearchButton = document.querySelector('.js-search-button');
 const elSearchModal = document.querySelector('.search-modal'); 
 
-if (document.location.href == 'http://127.0.0.1:5500/books.html' || document.location.href == 'https://mukhammadyn-book-shop.netlify.app/books.html') {
+if (document.location.href.includes('/books.html')) {
   const elSearchModalForm = document.querySelector('.js-search-modal-form');
   const elSearchModalFormInputName = elSearchModalForm.querySelector('.js-search-by-name');
   const elSearchModalFormStartYear = elSearchModalForm.querySelector('.js-search-by-start-year');
@@ -108,7 +108,7 @@ if (document.location.href == 'http://127.0.0.1:5500/books.html' || document.loc
   }
 
   // FILTERED BOOKS
-  function filteredBooks(name = '') {
+  function filterBooks(name = '') {
     return books.filter(book => {
       const findedBooks = book.title.match(name) && (elSearchModalFormLanguage.value == book.language || elSearchModalFormLanguage.value == 'all')
       && (elSearchModalFormCountry.value == book.country || elSearchModalFormCountry.value === 'all') && (Number(elSearchModalFormStartYear.value) <= book.year || elSearchModalFormStartYear.value == '') 
@@ -119,10 +119,10 @@ if (document.location.href == 'http://127.0.0.1:5500/books.html' || document.loc
   }
 
   // FILTER BOOKS
-  function filterBooks(evt) {
+  function onBookSearchSubmit(evt) {
     evt.preventDefault();
     let titleRegex = new RegExp(elSearchModalFormInputName.value, 'gi');
-    let foundBooks = filteredBooks(titleRegex, elSearchModalFormStartYear.value, elSearchModalFormEndYear.value, elSearchModalFormLanguage.value, elSearchModalFormCountry.value);
+    let foundBooks = filterBooks(titleRegex, elSearchModalFormStartYear.value, elSearchModalFormEndYear.value, elSearchModalFormLanguage.value, elSearchModalFormCountry.value);
 
     sortBooks(foundBooks, elSearchModalFormSort.value);
 
@@ -161,7 +161,7 @@ if (document.location.href == 'http://127.0.0.1:5500/books.html' || document.loc
 
   if (elSearchModal) {
     const elSearchModalFormSubmit = elSearchModal.querySelector('.js-search-modal-btn');
-    elSearchModalFormSubmit.addEventListener('click', filterBooks);
+    elSearchModalFormSubmit.addEventListener('click', onBookSearchSubmit);
   }
 
   getCountries();
@@ -169,7 +169,7 @@ if (document.location.href == 'http://127.0.0.1:5500/books.html' || document.loc
   getLanguages();
   appendLanguages();
   showBooks(books.slice(0, 50));
-} else if (document.location.href == 'http://127.0.0.1:5500/index.html' || document.location.href == 'https://mukhammadyn-book-shop.netlify.app/index.html') {
+} else if (document.location.href.includes('/index.html')) {
 
   // BOOK LIST
   const elBooksList = document.querySelector('.books-hero__index-list');
@@ -181,14 +181,14 @@ if (document.location.href == 'http://127.0.0.1:5500/books.html' || document.loc
     
     books.filter(book => {
       if (book.year > 1980) {
-        elNewBooksList.push(book);
+        newBooksList.push(book);
       }
     });
   }
 
   function showNewBooks() {
     let elNewDocFragment = document.createDocumentFragment();
-    for (const item of elNewBooksList) {
+    for (const item of newBooksList) {
       const elNewBookItem = elBookCardTemp.cloneNode(true);
       elNewBookItem.querySelector('.book-card__img').src = item.imageLink;
       elNewBookItem.querySelector('.book-card__img').alt = item.title;
